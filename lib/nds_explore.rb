@@ -8,6 +8,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  binding.pry
-  pp directors_database
+  
+  row 
+  while 
+  pp directors_database[0][:movies][0]
 end
