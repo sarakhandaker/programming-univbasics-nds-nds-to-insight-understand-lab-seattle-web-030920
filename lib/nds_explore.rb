@@ -9,5 +9,5 @@ end
 
 def print_first_directors_movie_titles
   binding.pry
-  pp nds
+  pp directors_database
 end
