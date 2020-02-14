@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   
   row=0
   while row < directors_database[0][:movies].length
-  print "#{directors_database[0][:movies][row][:title]} \n"
+  print "#{directors_database[0][:movies][row][:title]}\n"
   row+=1
   end
 end
